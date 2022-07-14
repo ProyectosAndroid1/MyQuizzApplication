@@ -64,6 +64,7 @@ public class MainActivity extends AppCompatActivity {
     private void updateHighscore (int highscoreNew){
         highscore = highscoreNew;
         tvHighscore.setText("Highscore: " + highscore);
+        //toas
 
         SharedPreferences prefs = getSharedPreferences(SHARED_PREFS, MODE_PRIVATE);
         SharedPreferences.Editor editor = prefs.edit();
